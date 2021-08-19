@@ -6,7 +6,7 @@ btn1.addEventListerner("click", function(){
     document.body.style.backgroundColor=colors[randomNumber];
 color1.textContent=colors[randomNumber];
 });
-
+console.log(getRandomNumber());
 function getRandomNumber()
 {
     return Math.floor(Math.random()*4);
